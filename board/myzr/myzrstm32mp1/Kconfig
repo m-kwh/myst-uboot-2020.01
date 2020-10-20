@@ -1,0 +1,13 @@
+if TARGET_MYZR_STM32MP15x
+
+config SYS_BOARD
+	default "myzrstm32mp1"
+
+config SYS_VENDOR
+	default "myzr"
+
+config SYS_CONFIG_NAME
+	default "myzrstm32mp1"
+
+source "board/st/common/Kconfig"
+endif
